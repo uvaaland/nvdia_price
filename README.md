@@ -19,7 +19,7 @@ cd nvdia_price
 
 2. Install the required packages:
 ```bash
-pip install yfinance pandas
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -46,8 +46,9 @@ Last Updated: 2025-01-30 13:10:45
 ## Requirements
 
 - Python 3.6 or higher
-- yfinance
-- pandas
+- Dependencies listed in `requirements.txt`:
+  - yfinance
+  - pandas
 
 ## License
 
